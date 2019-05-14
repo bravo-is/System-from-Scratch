@@ -1,0 +1,67 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+'.source.hdl':
+  'And':
+    'prefix': 'And'
+    'body': 'And(a=,b=,out=);'
+  'And-16bit':
+    'prefix': 'And16'
+    'body': 'And16(a=,b=,out=);'
+  'Not':
+    'prefix': 'Not'
+    'body': 'Not(in=,out=);'
+  'Not-16bit':
+    'prefix': 'Not16'
+    'body': 'Not16(in=,out=);'
+  'Or':
+    'prefix': 'Or'
+    'body': 'Or(a=,b=,out=);'
+  'Or16bit':
+    'prefix': 'Or16'
+    'body': 'Or16(a=,b=,out=);'
+  'Or8Way':
+    'prefix': 'Or8Way'
+    'body': 'Or8Way(in=,out=);'
+  'Xor':
+    'prefix': 'Xor'
+    'body': 'Xor(a=,b=,out=);'
+  'DMux':
+    'prefix': 'DMux'
+    'body': 'DMux(in=,sel=,a=,b=);'
+  'DMux4Way':
+    'prefix': 'DMux4Way'
+    'body': 'DMux4Way(in=,sel=,a=,b=,c=,d=);'
+  'DMux8Way':
+    'prefix': 'DMux8Way'
+    'body': 'DMux8Way(in=,sel=,a=,b=,c=,d=,e=,f=,g=,h=);'
+  'Mux':
+    'prefix': 'Mux'
+    'body': 'Mux(a=,b=,sel=,out=);'
+  'Mux16':
+    'prefix': 'Mux16'
+    'body': 'Mux16(a=,b=,sel=,out=);'
+  'Mux4Way16bit':
+    'prefix': 'Mux4Way16'
+    'body': 'Mux4Way16(a=,b=,c=,d=,sel=,out=);'
+  'Mux8Way16bit':
+    'prefix': 'Mux8Way16'
+    'body': 'Mux8Way16(a=,b=,c=,d=,e=,f=,g=,h=,sel=,out=);'
