@@ -65,3 +65,15 @@
   'Mux8Way16bit':
     'prefix': 'Mux8Way16'
     'body': 'Mux8Way16(a=,b=,c=,d=,e=,f=,g=,h=,sel=,out=);'
+  'HalfAdder':
+    'prefix': 'HalfAdder'
+    'body': 'HalfAdder(a=,b=,sum=,carry=);'
+  'FullAdder':
+    'prefix': 'FullAdder'
+    'body': 'FullAdder(a=,b=,c=,sum=,carry=);'
+  'Add-16bit':
+    'prefix': 'Add16'
+    'body': 'Add16(a=,b=,out=);'
+  'Inc16-bit':
+    'prefix': 'Inc16'
+    'body': 'Inc16(in=,out=);'
