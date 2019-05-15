@@ -41,6 +41,9 @@
   'Or8Way':
     'prefix': 'Or8Way'
     'body': 'Or8Way(in=,out=);'
+  'Or16Way':
+    'prefix': 'Or16Way'
+    'body': 'Or16Way(in=,out=);'
   'Xor':
     'prefix': 'Xor'
     'body': 'Xor(a=,b=,out=);'
@@ -77,3 +80,6 @@
   'Inc16-bit':
     'prefix': 'Inc16'
     'body': 'Inc16(in=,out=);'
+  'ALU16-bit':
+    'prefix': 'ALU'
+    'body': 'ALU(x=,y=,zx=,nx=,zy=,ny=,f=,no=,zr=,ng=,out=);'
